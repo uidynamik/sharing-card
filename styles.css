@@ -44,12 +44,10 @@ input {
   text-transform: uppercase;
   font-weight: 800;
   text-align: center;
-  /* background-color: #287ae7; */
   margin: 0.5rem 0;
 }
 
 .media-icons {
-  /* background-color: aqua; */
   text-align: center;
   margin-top: 3rem;
 }
