@@ -1,3 +1,5 @@
+@import url('https://css.gg/link.css');
+
 * {
   box-sizing: border-box;
 }
@@ -15,15 +17,90 @@ body {
 a {
   text-decoration: none;
   color: #287ae7;
+  font-weight: 600;
+}
+
+button {
+  cursor: pointer;
+}
+
+input {
+  outline: none;
 }
 
 .card {
   background-color: #eaf2fd;
-  width: 28rem;
+  width: 36rem;
   padding: 1rem;
 }
 
 .close {
   color: #9da4bc;
   text-align: end;
+}
+
+.title {
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  /* background-color: #287ae7; */
+  margin: 0.5rem 0;
+}
+
+.media-icons {
+  /* background-color: aqua; */
+  text-align: center;
+  margin-top: 3rem;
+}
+
+.media-icons button {
+  margin: 0;
+  width: 90px;
+  height: 90px;
+  background-color: #ffffff;
+  border: none;
+  outline: none;
+}
+
+.shareable-link {
+  padding: 2.5rem;
+}
+
+.shareable-link .label {
+  font-weight: bold;
+  font-size: small;
+  margin: 10px 0;
+}
+
+.shareable-link .form {
+  width: 100%;
+  display: flex;
+}
+
+.form .icon {
+  width: 10%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-color: #dbe9fb;
+  border-style: solid;
+  border-width: 1px 0px 1px 1px;
+  color: #9da4bc;
+}
+
+.form input {
+  width: 90%;
+  background-color: #ffffff;
+  border-color: #dbe9fb;
+  border-style: solid;
+  border-width: 1px 1px 1px 0px;
+  padding: 15px;
+  color: #302f2f;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
 }
