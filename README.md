@@ -1,3 +1,3 @@
 # sharing-card
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/web-platform-ghdkx4)
+[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/sharing-card-html-css)
